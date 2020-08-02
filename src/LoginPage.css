@@ -1,0 +1,107 @@
+
+.login-page{
+  position: relative;
+  overflow: hidden;
+  height: 97vh;
+  min-height: 600px;
+  width : 98vw;
+  background-image: url("login-page-bg.jpg");
+  background-color:lightgray;
+}
+.login-div{
+  position: relative;
+  margin: auto;
+  height: 450px;
+  width:330px;
+  top:15%;
+  background-color:white;
+  border-radius: 10px; 
+}
+.logo-img{
+  position: relative;
+  width:150px;
+  height:150px;
+  top:5%;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.input-div{
+  position: relative;
+  left:32px;
+  top:40px;
+  height: 250px;
+  width:300px;
+}
+.full-input {
+  position: relative;
+  display: inline-block;
+  padding: 8px;
+  border-radius: 3px;
+  border-style: solid;
+  border-color:lightgrey ;
+  width:250px;
+  border-width: thin;
+}
+.user-label {
+  font-size: 11px;
+  font-weight: bold;
+  color: gray;
+}
+.user-input {
+  outline: none;
+  border: none;
+  display:block;
+  line-height: 1.2em;
+  font-size: 15pt;
+  width:250px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color:saddlebrown;
+  font-weight: bold;
+}
+
+.login-button{
+  position: relative;
+  top: 40px;
+  width : 270px;
+  height: 40px;
+  border-style: hidden;
+  font-size: 12px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: orangered;
+  border: none;
+  border-radius: 3px;
+  font-weight: bold;
+}
+.checkbox-div{
+  position: relative;
+  top:56px;
+}
+
+.checkbox-input {
+    width: 16px;
+    height: 16px;
+}
+
+.checkbox-label{
+    position: relative;
+    left: 10px;
+    top: -2px;
+    color: gray;   
+}
+.bottom-div{
+  position: relative;
+  top:18%;
+  margin: auto;
+  width:160px;
+}
+
+.link-label{  
+  position: relative;
+  color:white;
+  font-size: 17px;
+}
+
