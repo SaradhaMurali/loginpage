@@ -33,7 +33,6 @@ class LoginPage extends React.Component {
         })
     }
     render() {
-        // have to set href url for forget password link click
         return (
             <div className="login-page">
                 <div className="login-div">
@@ -71,10 +70,6 @@ class LoginPage extends React.Component {
                             >Remember me</label>
                         </div>
                     </div>
-                </div>
-
-                <div className="bottom-div">
-                    <a className="link-label" href="https://www.w3schools.com/">Forgot your password?</a>
                 </div>
             </div>
         )

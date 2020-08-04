@@ -1,12 +1,10 @@
 
 .login-page{
   position: relative;
-  overflow: hidden;
   height: 97vh;
   min-height: 600px;
-  width : 98vw;
-  background-image: url("login-page-bg.jpg");
-  background-color:lightgray;
+  width : 99vw;
+  background-color:#f5f2d0;
 }
 .login-div{
   position: relative;
@@ -91,17 +89,5 @@
     left: 10px;
     top: -2px;
     color: gray;   
-}
-.bottom-div{
-  position: relative;
-  top:18%;
-  margin: auto;
-  width:160px;
-}
-
-.link-label{  
-  position: relative;
-  color:white;
-  font-size: 17px;
 }
 
